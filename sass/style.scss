@@ -85,14 +85,14 @@ h3{
 nav {
   height: 8vh;
   width: 100%;
-  background-color: #95918cd5;
+  background-color: #24221eaa;
   display: flex;
   justify-content: space-around;
   align-items: center;
   position: fixed;
   top: 0;
   z-index: 9999;
-  box-shadow: 1px 3px 7px rgb(120, 117, 117);
+  box-shadow: 1px 3px 7px rgb(33, 29, 29);
 }
 
 .nav-links {
@@ -247,6 +247,29 @@ nav a {
   justify-content: center;
   align-items: flex-start;
 }
+/* =====================
+   About 
+   =====================*/
+   .about {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #0b3c90af;
+  }
+  .card{
+    width: 500px;
+    padding: 20px 30px;
+    min-width: 340px;
+    height: auto;
+    background-color: #072353df;
+    border-radius: 20px;
+  }
+  .about p {
+    font-size: 1.2rem;
+    letter-spacing: 1.6px;
+  }
+
 
 /* =====================
    Contact 
