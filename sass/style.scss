@@ -31,7 +31,8 @@ body {
 .about h2,
 p {
   margin: 10px;
-  color: rgb(200, 200, 200);
+  color: rgb(234, 233, 233);
+  letter-spacing: 1px;
 }
 .box h2 {
   color: antiquewhite;
@@ -258,14 +259,15 @@ nav a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #0b3c90af;
+    background-color: #708fc562;
   }
   .card{
     max-width: 500px;
+    margin-top: 4rem;
     padding: 20px 30px;
     min-width:290px;
     height: auto;
-    background-color: #072353df;
+    background-color: #122950df;
     border-radius: 20px;
   }
   .about p {
@@ -277,6 +279,54 @@ nav a {
       padding: 15px 20px;
       font-size: 1rem;
       letter-spacing: 1.2px;
+    }
+  }
+  /*===================
+   Section Projects
+  =================== */
+  .projects {
+    width: 100%;
+    height: auto;
+    background-color: #6b6b6b;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .img-container {
+    width: 80%;
+    min-width: 60%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+  }
+  
+  .projects h1 {
+    padding: 6rem 0 2rem;
+    color: #fff;
+    font-size: 3rem;
+  }
+  
+  .img-card {
+    width: 22%;
+    padding-bottom: 1.5rem;
+  }
+  
+  .img-card img {
+    width: 100%;
+    border-radius: 5px;
+  }
+  
+  @media screen and (max-width: 769px) {
+    .img-container {
+      width: 95%;
+      flex-direction: column;
+    }
+    .img-card {
+      width: 80%;
     }
   }
 /* =====================
@@ -389,54 +439,7 @@ textarea {
     min-width: 90%;
   }
 }
-/*===================
-   Section Projects
-  =================== */
-  .projects {
-    width: 100%;
-    height: auto;
-    background-color: #6b6b6b;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .img-container {
-    width: 80%;
-    min-width: 60%;
-    height: auto;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 1rem;
-  }
-  
-  .projects h1 {
-    padding: 6rem 0 2rem;
-    color: #fff;
-    font-size: 3rem;
-  }
-  
-  .img-card {
-    width: 22%;
-    padding-bottom: 1.5rem;
-  }
-  
-  .img-card img {
-    width: 100%;
-    border-radius: 5px;
-  }
-  
-  @media screen and (max-width: 769px) {
-    .img-container {
-      width: 95%;
-      flex-direction: column;
-    }
-    .img-card {
-      width: 80%;
-    }
-  }
+
 /*===================
    Section footer
   =================== */
